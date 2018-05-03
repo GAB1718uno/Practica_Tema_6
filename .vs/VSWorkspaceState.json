@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WindowsFormsApp1",
-    "\\WindowsFormsApp1\\bin",
-    "\\WindowsFormsApp1\\bin\\Debug",
-    "\\WindowsFormsApp1\\bin\\Release",
-    "\\WindowsFormsApp1\\obj",
-    "\\WindowsFormsApp1\\obj\\Debug",
-    "\\WindowsFormsApp1\\Properties"
+    "\\WindowsFormsApp1"
   ],
-  "SelectedNode": "\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
   "PreviewInSolutionExplorer": false
 }
