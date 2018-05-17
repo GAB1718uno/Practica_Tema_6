@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
 
             miAlumno.Nombre = aluNombre.Text;
             miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + "  =  " + (miAlumno.Aprobado ? " Aprobado" : " Suspenso")+"\n";
+            miAlumnoStr = aluNombre.Text + " = " + aluNota.Text + "  =  " + (miAlumno.Aprobado ? " Aprobado" : " Suspenso")+"\n";
             listaAlumnos.AppendText(miAlumnoStr);
             misAlumnos.Agregar(miAlumno);
         }
@@ -171,7 +171,7 @@ namespace WindowsFormsApp1
         {
             get
             {
-                if (nota >= 5)
+                if (nota >= 6)
                     return true;
                 else
                     return false;
